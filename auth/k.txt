@@ -20,7 +20,13 @@ Code @/paokhaobrednahi
 curl -X GET \
   'https://graph.instagram.com/17841420246050769?fields=id,username&access_token=IGQVJWRDhjYlh2LXVSbHBfLU9OR2hjMHhmT01vSUhEX0o4MWtDcFE4alRDcm1VR1NkRVhUbzVLcEhadGF5TGozb04xQUdHaVRuZAWVVcUR0X05QdlBpRUREbWwzZAW12QjBub3lKQzJBTS1senFUbTlTVzZADYjd0QVEzMno4'
 
+curl -X GET \
+  'https://graph.instagram.com/17841401768410260?fields=id,username&access_token=IGQVJWRDhjYlh2LXVSbHBfLU9OR2hjMHhmT01vSUhEX0o4MWtDcFE4alRDcm1VR1NkRVhUbzVLcEhadGF5TGozb04xQUdHaVRuZAWVVcUR0X05QdlBpRUREbWwzZAW12QjBub3lKQzJBTS1senFUbTlTVzZADYjd0QVEzMno4'
+
+
 ***(getting media)
 curl -X GET \
   'https://graph.instagram.com/me/media?fields=id,media_type,media_url,permalink,username,caption&access_token=IGQVJWRDhjYlh2LXVSbHBfLU9OR2hjMHhmT01vSUhEX0o4MWtDcFE4alRDcm1VR1NkRVhUbzVLcEhadGF5TGozb04xQUdHaVRuZAWVVcUR0X05QdlBpRUREbWwzZAW12QjBub3lKQzJBTS1senFUbTlTVzZADYjd0QVEzMno4'
 
+curl -X GET \
+  'https://graph.instagram.com/16698947/media?fields=id,media_type,media_url,permalink,username,caption&access_token=IGQVJWRDhjYlh2LXVSbHBfLU9OR2hjMHhmT01vSUhEX0o4MWtDcFE4alRDcm1VR1NkRVhUbzVLcEhadGF5TGozb04xQUdHaVRuZAWVVcUR0X05QdlBpRUREbWwzZAW12QjBub3lKQzJBTS1senFUbTlTVzZADYjd0QVEzMno4'
