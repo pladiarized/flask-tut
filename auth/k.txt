@@ -1,4 +1,0 @@
-curl -X GET "https://graph.facebook.com/oauth/access_token
-  ?client_id=492670135207309
-  &client_secret=c7849c73563bf70c46b83b2a3783e31c
-  &grant_type=client_credentials"
