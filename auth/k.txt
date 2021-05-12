@@ -1,32 +1,4 @@
-***RETRIEVE CODE
-https://www.instagram.com/oauth/authorize?client_id=948196635916051&redirect_uri=https://sarvagya14503.github.io/ig-downloader/auth/&scope=user_profile,user_media&response_type=code
-
-***RETRIEVE ACCESS CODE
-curl -X POST \
-  https://api.instagram.com/oauth/access_token \
-  -F client_id=948196635916051 \
-  -F client_secret=373d051489adf282393e22df67e69e48 \
-  -F grant_type=authorization_code \
-  -F redirect_uri=https://sarvagya14503.github.io/ig-downloader/auth/ \
-  -F code=AQDWte3P2NWXO8zfvkjr4cPjSUquC8db3GmZY9zPSP0DOnw7CsAH0EuTSlHRviLHQ83X9TjthlOk0JeetS340zwCJTSnnJ75z5sglzwlYdsrCw2bqMRzrI2DVDVoisj9WjizukQg9Q6H_CfblQOe2TniJB692brYZBXh906tgY5mPuLLMtYMWZAucLhHymFAj9s6V18hAid2GLMxWutMnrohKY61z7zECAHOkjwpj_IL_w
-
-Code @/paokhaobrednahi
-{"id":"17841420246050769","username":"paokhaobrednahi"}
-
-
-{"access_token": "IGQVJWRDhjYlh2LXVSbHBfLU9OR2hjMHhmT01vSUhEX0o4MWtDcFE4alRDcm1VR1NkRVhUbzVLcEhadGF5TGozb04xQUdHaVRuZAWVVcUR0X05QdlBpRUREbWwzZAW12QjBub3lKQzJBTS1senFUbTlTVzZADYjd0QVEzMno4", "user_id": 17841420246050769}
-
-***(id, username)
-curl -X GET \
-  'https://graph.instagram.com/17841420246050769?fields=id,username&access_token=IGQVJWRDhjYlh2LXVSbHBfLU9OR2hjMHhmT01vSUhEX0o4MWtDcFE4alRDcm1VR1NkRVhUbzVLcEhadGF5TGozb04xQUdHaVRuZAWVVcUR0X05QdlBpRUREbWwzZAW12QjBub3lKQzJBTS1senFUbTlTVzZADYjd0QVEzMno4'
-
-curl -X GET \
-  'https://graph.instagram.com/17841401768410260?fields=id,username&access_token=IGQVJWRDhjYlh2LXVSbHBfLU9OR2hjMHhmT01vSUhEX0o4MWtDcFE4alRDcm1VR1NkRVhUbzVLcEhadGF5TGozb04xQUdHaVRuZAWVVcUR0X05QdlBpRUREbWwzZAW12QjBub3lKQzJBTS1senFUbTlTVzZADYjd0QVEzMno4'
-
-
-***(getting media)
-curl -X GET \
-  'https://graph.instagram.com/me/media?fields=id,media_type,media_url,permalink,username,caption&access_token=IGQVJWRDhjYlh2LXVSbHBfLU9OR2hjMHhmT01vSUhEX0o4MWtDcFE4alRDcm1VR1NkRVhUbzVLcEhadGF5TGozb04xQUdHaVRuZAWVVcUR0X05QdlBpRUREbWwzZAW12QjBub3lKQzJBTS1senFUbTlTVzZADYjd0QVEzMno4'
-
-curl -X GET \
-  'https://graph.instagram.com/16698947/media?fields=id,media_type,media_url,permalink,username,caption&access_token=IGQVJWRDhjYlh2LXVSbHBfLU9OR2hjMHhmT01vSUhEX0o4MWtDcFE4alRDcm1VR1NkRVhUbzVLcEhadGF5TGozb04xQUdHaVRuZAWVVcUR0X05QdlBpRUREbWwzZAW12QjBub3lKQzJBTS1senFUbTlTVzZADYjd0QVEzMno4'
+curl -X GET "https://graph.facebook.com/oauth/access_token
+  ?client_id=492670135207309
+  &client_secret=c7849c73563bf70c46b83b2a3783e31c
+  &grant_type=client_credentials"
